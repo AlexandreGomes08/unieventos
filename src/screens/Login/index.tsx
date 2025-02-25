@@ -61,17 +61,17 @@ export default function Login() {
       <View className="items-center mt-20 flex-1 px-6 pt-10 bg-gray-600">
         <Image
           source={require("../../assets/icon.png")}
-          style={{ width: 130, height: 130 }}
+          style={{ width: 115, height: 115 }}
         />
         <Text className="text-2xl font-medium text-gray-100 mt-[-20px]">
           UniEventos
         </Text>
       </View>
-      <View className="flex-1 px-6 py-10 bg-slate-100 rounded-t-3xl">
+      <View className="flex-1 px-6 py-10 bg-white-off rounded-t-3xl">
         <Text className="text-[24px] font-bold text-gray-500 mb-4">
           Olá, seja bem vindo!
         </Text>
-        <View className="flex-row items-center border border-gray-300 rounded-lg px-4 py-2 mb-4">
+        <View className="bg-slate-50 flex-row items-center rounded-lg px-4 py-2 mb-4">
           <MaterialIcons name="person" size={25} color={"gray"} />
           <TextInput
             className="flex-1 ml-2 text-gray-700"
@@ -83,7 +83,7 @@ export default function Login() {
             maxLength={14}
           />
         </View>
-        <View className="flex-row items-center border border-gray-300 rounded-lg px-4 py-2 mb-4">
+        <View className="bg-slate-50 flex-row items-center rounded-lg px-4 py-2 mb-4">
           <MaterialIcons name="lock" size={25} color={"gray"} />
           <TextInput
             className="flex-1 ml-2 text-gray-700"
@@ -98,7 +98,7 @@ export default function Login() {
           className="bg-gray-600 py-3 rounded-lg items-center mb-4"
           onPress={handleLogin}
         >
-          <Text className="text-white text-lg font-medium">LOGIN</Text>
+          <Text className="text-slate-50 text-lg font-medium">LOGIN</Text>
         </TouchableOpacity>
         <View className="mt-[12px] flex flex-row items-center ml-2">
           <AntDesign name="infocirlce" size={14} color="gray" />

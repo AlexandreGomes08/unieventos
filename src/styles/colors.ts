@@ -8,6 +8,10 @@ export const colors = {
     600: "#1A1F24",
   },
 
+  white: {
+    off: "#ECECEC",
+  },
+
   green: {
     soft: "#E9F3EF",
     light: "#3B9B62",
