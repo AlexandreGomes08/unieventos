@@ -34,37 +34,45 @@ export default function Settings() {
           Conta vinculada em 29/10/2024
         </Text>
       </View>
-      <View className="bg-slate-200 flex-1">
+      <View className="bg-gray-600 flex-1">
         {/* <View style={styles.divider} /> */}
         <View className="h-80 w-full px-3">
-          <View className="flex-row mt-3">
+          <View className="flex-row mt-3 items-center">
             <MaterialIcons name="settings" size={20} color={"#6B6B6B"} />
-            <Text className="text-xl font-medium px-1">Confiurações</Text>
+            <Text className="text-xl font-medium px-2 text-gray-300">
+              Confiurações
+            </Text>
           </View>
           {/* <View style={styles.divider} /> */}
-          <View className="flex-row mt-3">
+          <View className="flex-row mt-3 items-center">
             <MaterialIcons name="history" size={20} color={"#6B6B6B"} />
-            <Text className="text-xl font-medium px-1">Histórico</Text>
+            <Text className="text-xl font-medium px-2 text-gray-300">
+              Histórico
+            </Text>
           </View>
           {/* <View style={styles.divider} /> */}
-          <View className="flex-row mt-3">
+          <View className="flex-row mt-3 items-center">
             <MaterialIcons name="notifications" size={20} color={"#6B6B6B"} />
-            <Text className="text-xl font-medium px-1">Notificações</Text>
+            <Text className="text-xl font-medium px-2 text-gray-300">
+              Notificações
+            </Text>
           </View>
           {/* <View style={styles.divider} /> */}
-          <View className="flex-row mt-3">
+          <View className="flex-row mt-3 items-center">
             <MaterialIcons name="moving" size={20} color={"#6B6B6B"} />
-            <Text className="text-xl font-medium px-1">Resultados</Text>
+            <Text className="text-xl font-medium px-2 text-gray-300">
+              Resultados
+            </Text>
           </View>
           {/* <View style={styles.divider} /> */}
         </View>
         <View className="w-full items-center">
           <TouchableOpacity
-            className="h-[50px] w-[110px] flex-row items-center justify-center bg-gray-600 rounded-lg"
+            className="h-[50px] w-[110px] flex-row items-center justify-center bg-white-off rounded-lg"
             onPress={showConfirmationAlert}
           >
-            <MaterialIcons name="logout" size={20} color={"#FFF"} />
-            <Text className="text-sm text-gray-50 px-1">LOGOUT</Text>
+            <MaterialIcons name="logout" size={20} color={"#181418"} />
+            <Text className="text-sm text-gray-600 px-1">LOGOUT</Text>
           </TouchableOpacity>
         </View>
       </View>
